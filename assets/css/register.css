@@ -1,0 +1,79 @@
+.login{
+    text-align: center;
+    width: 400px;
+    background-color:rgb(217, 218, 206);
+    margin-top: 140px;
+    margin-left: 550px;
+    border-radius: 10px;
+    position: absolute;
+    margin-bottom: 100px;
+   
+   
+}
+.login .h1{
+    color:black;
+}
+.login .fn{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.login .ln{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+}
+.login .em{
+    width: 310px;
+    height: 25px;
+    border-radius: 5px;
+}
+.login .pd{
+    width: 310px;
+    height: 25px;
+    border-radius: 5px;
+}
+.login .cpd{
+    width: 310px;
+    height: 25px;
+    border-radius: 5px;
+}
+.login .rt{
+    width: 310px;
+    height: 40px;
+    background:burlywood;
+    cursor: pointer;
+    border-radius: 5px;
+}
+body{
+   margin: 0;
+   padding: 0;
+   font-family: montserrat;
+   background: linear-gradient(120deg, #2980b9, #8e44ad);
+   height: 100vh;
+}
+.login h1:before,
+.login h1:after{
+    content: "";
+    background: black;
+    position: absolute;
+    height: 1px;
+    width: 120px;
+}
+.login h1:before{
+    left: 0;
+    top: 40px;
+}
+.login h1:after{
+    right: 0;
+    top: 40px;
+}
+
+
+
+
+
+
+
+
+
